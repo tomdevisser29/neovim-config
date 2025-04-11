@@ -38,4 +38,5 @@ require('lazy').setup({
         build = ':TSUpdate' 
     },
     'neovim/nvim-lspconfig',
+    'folke/tokyonight.nvim',
 })
