@@ -37,6 +37,15 @@ require('lazy').setup({
         -- When treesitter is first installed, or updated, this will download all the syntax parsers.
         build = ':TSUpdate' 
     },
-    'neovim/nvim-lspconfig',
-    'folke/tokyonight.nvim',
+    {
+        'neovim/nvim-lspconfig',
+    },
+    {
+        'folke/tokyonight.nvim',
+        lazy = false,
+        priority = 1000,
+        config = function()
+            vim.cmd("colorscheme tokyonight")
+        end
+    },
 })

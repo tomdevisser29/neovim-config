@@ -8,5 +8,3 @@ require('tomdevisser/options')
 require('tomdevisser/keymaps')
 require('tomdevisser/plugins')
 require('tomdevisser/lsp')
-
-vim.cmd("colorscheme tokyonight")
