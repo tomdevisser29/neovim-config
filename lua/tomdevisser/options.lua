@@ -29,3 +29,7 @@ vim.opt.inccommand = 'split'
 
 -- Minimal number of screen lines above or below the cursor.
 vim.opt.scrolloff = 10
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.colorcolumn = '80,120'
+vim.opt.textwidth = 80
